@@ -1,0 +1,42 @@
+﻿History Flooder
+javascript:var num=prompt("How Times Do You Want This Page To Show Up In your History?\Developed By:  Schoolcheats on  YT");done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("Flooding Successful!\n "+window.location.href+" \nIs Now In Your History "+num+(num==1?" time.":" Times. \nDeveloped By: Schoolcheats on  YT"))}
+
+
+Fog Network Dev
+javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);}())
+
+
+Cookie Crumbley
+javascript:var numCookies=0; var cookieArray=document.cookie.split("; "); for(var i=0; i<cookieArray.length && cookieArray[i]; i++) {numCookies++; for(var subDomain= "." + location.host; subDomain; subDomain=subDomain.replace(/^(?:%5C.|[^%5C.]+)/, "")){ for(var curPath =location.pathname; curPath; curPath=curPath.replace(/.$/,"")){document.cookie=(cookieArray[i] + "; domain=" + subDomain + "; path=" + curPath + "; expires="+new Date((new Date()).getTime()-1e11).toGMTString());}}} alert("I crumbled " + numCookies + " cookies for you!"); window.location.href = "http://" + window.location.host + window.location.pathname;
+
+
+Edpuzzle Hack 
+javascript: var host = window.location.hostname; if (host == "edpuzzle.com") { var r = new XMLHttpRequest(); r.open("GET", "https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js", true); r.addEventListener("load", function(){eval(this.responseText);}); r.send();} else if (host == "edpuzzle.hs.vc") {alert("To use this, drag this button into your bookmarks bar. Then, run it when you're on an Edpuzzle assignment.")} else {alert("Please run this on an Edpuzzle assignment.")}
+
+
+NotPlu Iready Hack
+javascript:var numCookies=0; var cookieArray=document.cookie.split("; "); for(var i=0;
+i<cookieArray.length && cookieArray[i]; i++) {numCookies++; for(var subDomain= "." +
+location.host; subDomain; subDomain=subDomain.replace(/^(?:%5C.|[^%5C.]+)/, "")){ for(var
+curPath =location.pathname; curPath;
+curPath=curPath.replace(/.$/,"")){document.cookie=(cookieArray[i] + "; domain=" + subDomain
++ "; path=" + curPath + "; expires="+new Date((new Date()).getTime()-1e11).toGMTString());}}}
+alert("I crumbled " + numCookies + " cookies for you!"); window.location.href = "http://" +
+window.location.host + window.location.pathname;
+
+
+Edpuzzle Hack 
+javascript: var host = window.location.hostname; if (host == "edpuzzle.com") { var r = new
+XMLHttpRequest(); r.open("GET",
+"https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js", true);
+r.addEventListener("load", function(){eval(this.responseText);}); r.send();} else if (host ==
+"edpuzzle.hs.vc") {alert("To use this, drag this button into your bookmarks bar. Then, run it when
+you're on an Edpuzzle assignment.")} else {alert("Please run this on an Edpuzzle assignment.")}
+
+
+NotPlu Iready Hack
+(wont load)
+
+
+AutoClicker 3.0
+javascript:(function(x,y){if(!window.click){window.click=!0,document.body.style.cursor='crosshair';var cps=prompt('Autoclicker CPS: (Under 200 recommended)');if(!cps||isNaN(cps)?(alert(%27You entered something wrong. Try running the script again.%27),end()):alert(%27Autoclicker activated at %27+cps+%27 CPS! Do [ctrl+e] to stop.%27),addEventListener(%27mousemove%27,e=>{x=e.clientX,y=e.clientY}),addEventListener(%27keydown%27,e=>{%27e%27===e.key&&e.ctrlKey&&(alert(%27Autoclicker deactivated! Click the bookmark again to reactivate!%27),end())}),window.click)var int=setInterval(function(){var e=document.elementFromPoint(x,y);e&&e.click()},1e3/cps);function end(){clearInterval(int),window.click=!1,document.body.style.cursor=%27default%27}}})()
